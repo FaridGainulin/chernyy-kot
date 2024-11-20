@@ -1,0 +1,16 @@
+header.header
+  .header__container
+    .header__brand-box
+      img.header__logo(src="images/logo-header.jpg" loading="lazy" width="592" height="278" alt="logo")
+      .header__brand.font-s-12
+        span.text-up.color-pink ЧЕРНЫЙ КОТ
+        | Франшиза компании
+        br
+        | по организации квестов и
+        br
+        | праздничных мероприятий
+    .header__connection
+      a.header__connection-icon-bg(href="tel:+79990000000")
+        img.header__connection-icon(src="images/connection-icon.svg" loading="lazy" width="12" height="12" alt="icon")
+      include ../components/phone-number.pug
+      //- .header__call-me.btn.btn--call-me(data-remodal-target="modal-form-call-me") Заказать звонок

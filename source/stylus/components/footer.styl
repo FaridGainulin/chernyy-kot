@@ -1,0 +1,112 @@
+.footer
+  background-color: #fff
+
+  &__container
+    display: flex
+    align-items: center
+    flex-direction: column
+    color: #000
+    gap: 10px
+    padding 10px 0
+    letter-spacing: 1px
+    +above($breakpoints.sm)
+      flex-direction: row
+      justify-content space-between
+      padding 20px 0
+    +above($breakpoints.md)
+      padding 25px 0
+    +above($breakpoints.xxl)
+      padding 44px 0 38px
+
+  &__box
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    +above($breakpoints.sm)
+      align-items: flex-end
+      flex-direction: row
+      gap: 20px
+    +above($breakpoints.md)
+      gap: 70px
+    +above($breakpoints.xxl)
+      gap: 92px
+
+  &__logo
+    width 140px
+    height: auto
+    +above($breakpoints.sm)
+      width 160px
+    +above($breakpoints.md)
+      width 180px
+    +above($breakpoints.xxl)
+      width 207px
+
+  &__brand-block
+    +above($breakpoints.sm)
+      display: flex
+      flex-direction: column
+      gap: 5px
+      margin-bottom 10px
+    +above($breakpoints.md)
+      margin-bottom 11px
+      gap: 8px
+    +above($breakpoints.xxl)
+      margin-bottom 12px
+      gap: 12px
+
+  &__brand
+    display: none
+    +above($breakpoints.sm)
+      display: block
+
+  &__privacy
+    cursor pointer
+    text-decoration: underline
+
+  &__connection
+    display: flex
+    align-items: center
+    gap: 8px
+    +above($breakpoints.sm)
+      gap: 6px;
+    +above($breakpoints.md)
+      gap: 8px;
+    +above($breakpoints.xxl)
+      gap: 10px
+
+  &__connection-icon
+    width 10px
+    height: 10px
+    +above($breakpoints.md)
+      width 11px
+      height: 11px
+    +above($breakpoints.xxl)
+      width 12px
+      height: 12px
+
+  &__connection-icon-bg
+    background-color #000
+    display: flex
+    justify-content center
+    align-items: center
+    border-radius: 5px
+    height: 16px
+    width 16px
+    +above($breakpoints.sm)
+      border-radius: 6px
+      height: 20px
+      width 20px
+    +above($breakpoints.md)
+      border-radius: 8px
+      height: 24px
+      width 24px
+    +above($breakpoints.xxl)
+      border-radius: 10px
+      height: 26px
+      width 26px
+
+  &__call-me
+    display: none
+    +above($breakpoints.sm)
+      display: flex

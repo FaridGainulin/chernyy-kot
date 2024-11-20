@@ -1,0 +1,38 @@
+section.info-section
+  .wrapper
+    .info-section__container
+      img.info-section__img-left(src="images/info-section-img-left.png" loading="lazy" width="496" height="1338" alt="image")
+      img.info-section__img-right(src="images/info-section-img-right.png" loading="lazy" width="396" height="1220" alt="image")
+      h2.info-section__title.font-w-bold.font-s-42.text-up
+        | Почувствуйте себя владельцем 
+        br.no-br
+        | квест-клуба
+      .info-section__sub-title.font-s-20
+        | Запишитесь на тест-драйв франшизы и вы узнаете:
+      .swiper-bullet
+        .info-section__cards.swiper-wrapper
+          .info-section__card.swiper-slide
+            img.info-section__card-icon(src="images/icon-star.png" loading="lazy" width="42" height="54" alt="icon")
+            .font-s-20 Как вести документооборот
+          .info-section__card.swiper-slide
+            img.info-section__card-icon(src="images/icon-star.png" loading="lazy" width="42" height="54" alt="icon")
+            .font-s-20 Как расширять клиентскую базу
+          .info-section__card.swiper-slide
+            img.info-section__card-icon(src="images/icon-star.png" loading="lazy" width="42" height="54" alt="icon")
+            .font-s-20 Как организовать пространство квест-клуба
+          .info-section__card.swiper-slide
+            img.info-section__card-icon(src="images/icon-star.png" loading="lazy" width="42" height="54" alt="icon")
+            .font-s-20 Как избежать ошибок на старте
+          .info-section__card.swiper-slide
+            img.info-section__card-icon(src="images/icon-star.png" loading="lazy" width="42" height="54" alt="icon")
+            .font-s-20 Как всегда быть в курсе новинок рынка
+          .info-section__card.swiper-slide
+            img.info-section__card-icon(src="images/icon-star.png" loading="lazy" width="42" height="54" alt="icon")
+            .font-s-20 Как и из чего будет формироваться ваша прибыль
+        .bullet-pagination
+      form.info-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn(type="submit") Записаться
+      img.info-section__img(src="images/info-section-img.png" loading="lazy" width="1114" height="860" alt="image")

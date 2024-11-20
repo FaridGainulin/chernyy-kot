@@ -1,0 +1,38 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-bold.font-s-42.text-up
+        | Откройте свой квест-
+        br.no-br
+        | клуб с прибылью от 
+        br.no-br
+        | 4,4 млн рублей в год
+      form.main-section__form(data-feedback-form)
+        input(type="text" name="honeyfield" class="honeypot" style="display:none")
+        input.input(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+        input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        .main-section__form-text.font-s-18 Получите подробный план открытия
+        button.btn(type="submit") Получить
+      .swiper-bullet
+        .main-section__cards.swiper-wrapper
+          .main-section__card.swiper-slide
+            img.main-section__card-img(src="images/main-section-card-img.png" loading="lazy" width="118" height="96" alt="image")
+            .font-s-18.text-up
+              | Высокая 
+              br.no-br
+              | рентабельность
+          .main-section__card.swiper-slide
+            img.main-section__card-img(src="images/main-section-card-img.png" loading="lazy" width="118" height="96" alt="image")
+            .font-s-18.text-up
+              | Поддержка на 
+              br.no-br
+              | всех этапах
+          .main-section__card.swiper-slide
+            img.main-section__card-img(src="images/main-section-card-img.png" loading="lazy" width="118" height="96" alt="image")
+            .font-s-18.text-up
+              | Стабильная 
+              br.no-br
+              | прибыль
+        .bullet-pagination
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1449" height="1536" alt="image")

@@ -1,0 +1,66 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      img.finances-section__img-left(src="images/finances-section-img-left.png" loading="lazy" width="498" height="1846" alt="image")
+      img.finances-section__img-right(src="images/finances-section-img-right.png" loading="lazy" width="1138" height="1958" alt="image")
+      h2.finances-section__title.font-w-bold.font-s-42.text-up
+        | Франшиза “ЧЁРНЫЙ КОТ” в цифрах*
+      .swiper-bullet
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-36.text-up 367 000 рублей
+            .finances-section__card-text.font-s-20
+              | Средняя чистая ежемесячная 
+              br.no-br
+              | прибыль
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-36.text-up 2,28 млн рублей
+            .finances-section__card-text.font-s-20
+              | Первоначальные 
+              br.no-br
+              | инвестиции
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-36.text-up 4,4 млн рублей
+            .finances-section__card-text.font-s-20
+              | Средняя чистая годовая 
+              br.no-br
+              | прибыль
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-36.text-up 62,5%
+            .finances-section__card-text.font-s-20
+              | Рентабельность по чистой 
+              br.no-br
+              | прибыли
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-36.text-up 3 месяца
+            .finances-section__card-text.font-s-20
+              | Чтобы начать зарабатывать
+          .finances-section__card.swiper-slide
+            .finances-section__card-title.font-w-bold.font-s-36.text-up 9 месяцев
+            .finances-section__card-text.font-s-20
+              | Срок окупаемости вашего 
+              br.no-br
+              | бизнеса
+        .bullet-pagination
+      .finances-section__text
+        | *Данные указаны для квест-клуба, открытого в формате Standart, в городе с населением до 500 тысяч человек
+      .finances-section__bottom
+        img.finances-section__bottom-img(src="images/finances-section-bottom-img.png" loading="lazy" width="708" height="436" alt="image")
+        .finances-section__bottom-text
+          .font-w-bold.font-s-24.text-up
+            | Ознакомьтесь детально с 
+            br.no-br
+            span.color-pink финансовыми расчетами 
+            br.no-br
+            | вашего будущего бизнеса
+          .font-s-20
+            | Скачайте 
+            span.color-pink  финансовую 
+            br.no-br
+            span.color-pink  модель 
+            | Черный кот
+        form.finances-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+          button.btn(type="submit") скачать

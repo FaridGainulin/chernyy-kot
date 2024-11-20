@@ -1,0 +1,56 @@
+section.reasons-section
+  .wrapper
+    .reasons-section__container
+      h2.reasons-section__title.font-w-bold.font-s-42.text-up
+        | 4 причины открыть 
+        br
+        | свой квест-клуб
+      .swiper-bullet
+        .reasons-section__cards.swiper-wrapper
+          .reasons-section__card.swiper-slide
+            img.reasons-section__card-icon(src="images/reasons-section-card-icon-1.svg" loading="lazy" width="106" height="106" alt="icon")
+            .font-s-18.text-up
+              | Стабильно высокий спрос
+              br
+              | и широкие возможности
+          .reasons-section__card.swiper-slide
+            img.reasons-section__card-icon(src="images/reasons-section-card-icon-2.svg" loading="lazy" width="106" height="106" alt="icon")
+            .font-s-18.text-up
+              | Большая маржинальность
+              br
+              | и высокая рентабельность
+          .reasons-section__card.swiper-slide
+            img.reasons-section__card-icon(src="images/reasons-section-card-icon-3.svg" loading="lazy" width="106" height="106" alt="icon")
+            .font-s-18.text-up
+              | Надежная и проверенная
+              br
+              | финансовая модель
+          .reasons-section__card.swiper-slide
+            img.reasons-section__card-icon(src="images/reasons-section-card-icon-4.svg" loading="lazy" width="106" height="106" alt="icon")
+            .font-s-18.text-up
+              | Самореализация и статус
+              br
+              | хозяина бизнеса
+        .bullet-pagination
+      .reasons-section__bottom
+        img.reasons-section__bottom-img(src="images/reasons-section-bottom-img.png" loading="lazy" width="922" height="692" alt="image")
+        .reasons-section__bottom-text
+          .font-w-bold.font-s-24.text-up
+            | Узнайте о других 
+            br.no-br
+            span.color-pink преимуществах 
+            br.no-br
+            span.color-pink бизнеса 
+            | по франшизе 
+            br.no-br
+            | ЧЕРНЫЙ КОТ
+          .font-s-20
+            | Скачайте 
+            span.color-pink подробную 
+            br.no-br
+            span.color-pink презентацию
+        form.reasons-section__form(data-feedback-form)
+          input(type="text" name="honeyfield" class="honeypot" style="display:none")
+          input.input(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+          button.btn(type="submit") Скачать презентацию
